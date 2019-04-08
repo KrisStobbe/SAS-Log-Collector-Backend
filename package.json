@@ -1,0 +1,26 @@
+{
+  "name": "SAS-Log-Collector-Backend",
+  "version": "1.0.0",
+  "description": "This repository contains the Node.JS server handling frontend and backend requests updating databases and sending important log information through either FTP or Email.",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrisStobbe/SAS-Log-Collector-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrisStobbe/SAS-Log-Collector-Backend/issues"
+  },
+  "homepage": "https://github.com/KrisStobbe/SAS-Log-Collector-Backend#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
